@@ -1,0 +1,51 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<title>Criar conta e carteira</title>
+<script type="text/javascript" src="node_modules/web3/dist/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+		
+	
+	<div class="container">
+		<div class="row text-center">
+            <div class="col-md-12" id="loader">
+				<br>
+                <img id="eth" src = "assets/eth.jpg">
+            </div>
+        </div>
+        <div style="margin-top: 30px;" class="row text-center">
+            <div class="col-md-12">
+                <h2>Criar conta e carteira</h2>
+            </div>            
+        </div>
+        <div class="row text-center">
+                <div class="col-md-12">
+                    <span>Conta: <i id="conta"></i></span>
+                </div>
+		</div> 
+		<div class="row text-center">
+                <div class="col-md-12">
+                    <span>Chave Privada: <i id="chavePrivada"></i></span>
+                </div>
+		</div> 
+		<div class="row text-center">
+                <div class="col-md-12">
+                    <span>Carteira: <i id="carteira"></i></span>
+                </div>
+		</div>
+		<div style="margin-top: 30px;" class="row text-center">
+            <div class="col-md-12">
+                <h2>Voltar</h2>
+				<a href='index.html'>clique aqui</a>
+            </div>            
+        </div>
+    </div>
+	
+</body>
+<script src="createWallet.js"></script>
+</html>
